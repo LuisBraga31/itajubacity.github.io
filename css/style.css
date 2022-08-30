@@ -1,44 +1,53 @@
 * {
+    width: 100wh;
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 /* Header */
 
 header {
     background-color: #C4C4C4;
-    width: 100%;
+    width: 100vw;
     height: 55vh;
-    margin: 0;
 
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding-top: 30px;
+
 }
 
 .header-logo > img {
     width: 150px;
     height: 13vh;
+    margin-top: 15px;
 }
 
-.header-nav > nav > a {
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+    width: 80%;
+    height: 35vh;
 
-    display: block;
+}
+
+nav > a {
+
+    width: 200px;
     
-    margin-top: 25px;
-    padding-top: 20px;
-    padding-bottom: 5px;
-    
+    padding: 20px 20px;
+    border: 1px solid #000000;
+    border-radius: 30px;
+
     color: black;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 22px;
+    font-size: 24px;
     text-decoration: none;
     text-align: center;
-    
-    width: 165px;
-    height: 40px;
-    border: 1px solid #000000;
-    border-radius: 36px;
 
 }
 
@@ -139,4 +148,5 @@ footer {
 .contato h2 {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    font-size: 24px;
 }
