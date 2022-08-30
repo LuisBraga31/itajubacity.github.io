@@ -1,0 +1,21 @@
+@media (min-width: 1024px) {
+
+    .section-banner {
+        display: block;
+    }
+
+    nav {
+        flex-direction: row;
+        width: 45%;
+        height: 100px;
+        
+    }
+
+    header {
+        flex-direction: row;
+        justify-content: center;
+        gap: 200px;
+        height: 200px;
+    }
+
+}
