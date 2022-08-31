@@ -1,21 +1,55 @@
 @media (min-width: 1024px) {
 
-    .section-banner {
-        display: block;
-    }
-
-    nav {
-        flex-direction: row;
-        width: 45%;
-        height: 100px;
-        
-    }
+    /* Header */
 
     header {
         flex-direction: row;
         justify-content: center;
         gap: 200px;
         height: 200px;
+    }
+
+    .header-logo > img {
+        margin-top: 0;
+    }
+
+    nav {
+        flex-direction: row;
+        width: 45%;
+        height: 100px;
+        margin-top: 0px;
+        gap: 20px;
+        
+    }
+    
+    /*Main*/
+    
+    .section-banner {
+        display: block;
+        margin-top: 5px;
+    }
+    
+    .section-title {
+        margin-top: 20px;
+        margin-left: 10%;
+        text-align: left;
+    }
+
+    .section-curiosidades {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+
+    /* Footer */
+
+    .footer-contatos {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 250px;
     }
 
 }
