@@ -9,11 +9,11 @@
         height: 200px;
     }
 
-    .header-logo > img {
+    .logo > img {
         margin-top: 0;
     }
 
-    nav {
+    .nav {
         flex-direction: row;
         width: 45%;
         height: 100px;
@@ -24,49 +24,52 @@
     
     /*Main*/
     
-    .section-banner {
+    .banner {
         display: block;
-        margin-top: 5px;
     }
     
-    .section-title {
-        margin-top: 20px;
-        margin-left: 18%;
+    .curiosidade-title {
+        line-height: 100px;
+        margin-left: 21%;
         text-align: left;
     }
 
-    .section-curiosidades {
+    .curiosidade-cards {
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        gap: 50px;
+        gap: 100px;
+    }
+    
+    .card {
+        gap: 15px;
     }
 
-    .section-video {
+    .video {
         height: 700px;
     }
 
     .video-title {
         margin-top: 20px;
-        margin-left: 18%;
+        margin-left: 20%;
         text-align: left;
     }
 
-    .video {
-        padding-left: 18%;
-        padding-right: 18%;
+    .video-frame {
+        padding-left: 20%;
+        padding-right: 20%;
     }
     
-    .video > iframe {
+    .video-frame > iframe {
         width: 100%;
-        height: 500px;
+        height: 550px;
         border-radius: 30px;
     }
 
     /* Footer */
 
-    .footer-contatos {
+    .contatos {
         flex-direction: row;
         align-items: center;
         justify-content: center;

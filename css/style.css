@@ -14,37 +14,36 @@ header {
     background-color: #C4C4C4;
     width: 100%;
     height: 550px;
-    margin: 0;
+    
     display: flex;
     align-items: center;
     flex-direction: column;
 
 }
 
-.header-logo > img {
+.logo > img {
     width: 150px;
-    height: 125px;
+    height: 130px;
     margin-top: 25%;
 }
 
-nav {
+.nav {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    
-    width: 80%;
-    height: 320px;
-    margin-top: 30px;
+
+    width: 100%;
+    height: 330px;
+
 }
 
-nav > a {
+.nav > a {
 
-    width: 200px;
-    
+    min-width: 220px; 
     padding: 20px 20px;
     border: 1px solid #000000;
-    border-radius: 30px;
+    border-radius: 35px;
 
     color: black;
     font-family: Arial, Helvetica, sans-serif;
@@ -61,68 +60,65 @@ main {
     flex: auto;
 }
 
-.section-banner {
+.banner {
     width: 100%;
-    height: 500px;
+    height: 550px;
     display: none;
+    margin-bottom: 5%;
 }
 
-.section-banner > img {
-    width: 80%;
-    margin-left: 10%;
-    align-self: center;
-    height: 500px;
+.banner > img {
+    width: 100%;
+    height: 620px;
 }
 
-.section-title {
-
-    padding: 15px;
-
+.curiosidade-title {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
-    line-height: 48px;
+    line-height: 75px;
     text-align: center;
     color: #000000;  
 }
 
-.section-curiosidades {
+.curiosidade-cards {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 20px;
 }
 
-.curiosidade {
-    width: 330px;
-    height: 530px;
+.card {
+    width: 350px;
+    height: 550px;
 
     display: flex;
     flex-direction: column;
     align-items: center;
-
     gap: 20px;
+    
     background: #C4C4C4;
     border-radius: 35px;
 }
 
-.curiosidade > img {
+.card > img {
     width: 70%;
+    height: 40%;
     padding-top: 20px;
 }
 
-.curiosidade > h2 {
+.card > h2 {
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.curiosidade > p {
-    padding: 22px;
+.card > p {
+    padding: 0px 25px 0px 25px;
     text-align: center;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.section-video {
+.video {
     width: 100%;
     height: 600px;
 }
@@ -135,12 +131,12 @@ main {
     color: #000000;
 }
 
-.video {
+.video-frame {
     padding-left: 10%;
     padding-right: 10%;
 }
 
-.video > iframe {
+.video-frame > iframe {
     width: 100%;
     height: 450px;
     border-radius: 30px;
@@ -153,26 +149,21 @@ footer {
     background: #C4C4C4;
 }
 
-.footer-titulo {
-    padding: 30px;
-    font-size: 24px
-}
-
-.footer-contatos {
+.contatos {
     display: flex;
     flex-direction: column;
-
     gap: 100px;
     align-items: center;
-    padding-bottom: 100px;
+
+    padding: 80px 0px 80px 0px;
 }
 
-.contato > a > img {
+.contato-card > a > img {
     width: 150px;
     border-radius: 155px;
 }
 
-.contato > h2 {
+.contato-card > h2 {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     font-size: 24px;
