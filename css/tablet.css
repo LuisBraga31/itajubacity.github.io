@@ -4,37 +4,52 @@
 
     header {
         flex-direction: row;
-        justify-content: center;
-        gap: 100px;
-        height: 200px;
+        justify-content: space-between;
+
+        height: 150px;
     }
 
     .logo > img {
+        height: 80px;
         margin-top: 0;
+        margin-left: 20px;
     }
 
     .nav {
         flex-direction: row;
-        width: 45%;
         height: 100px;
         margin-top: 0px;
-        gap: 5px;
+        justify-content: center;
+        gap: 20px;
     }
 
     .nav > a {
-        min-width: 165px;   
+        min-width: 135px;
     }
     
     /*Main*/
     
     .banner {
         display: block;
+        height: 350px;
+    }
+
+    .banner > img {
+
+        height: 450px;
+    }
+    
+    .curiosidades {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
     }
     
     .curiosidade-title {
-        line-height: 150px;
-        margin-left: 15%;
+        margin-top: 10%;
+        margin-bottom: 2%;
         text-align: left;
+        margin-left: 5%;
     }
 
     .curiosidade-cards {
