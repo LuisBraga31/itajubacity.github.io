@@ -30,7 +30,7 @@
     }
 
     .nav > a {
-        min-width: 165px;  
+        min-width: 165px;
     }
     
     /*Main*/
@@ -43,11 +43,6 @@
         display: flex;
         align-items: center;
         flex-direction: column;
-    }
-
-    .curiosidade-title {
-        margin-bottom: 1%;
-        margin-top: 1%;
     }
 
     .curiosidade-cards {
@@ -66,11 +61,7 @@
         height: 700px;
     }
 
-    .video-title {
-        margin-top: 20px;
-        margin-left: 20%;
-        text-align: left;
-    }
+
 
     .video-frame {
         padding-left: 20%;

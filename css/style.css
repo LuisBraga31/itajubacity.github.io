@@ -14,7 +14,7 @@ header {
     background-color: #C4C4C4;
     width: 100%;
     height: 550px;
-    border: 3px solid black;
+    border: 3px solid blue;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -49,15 +49,22 @@ header {
 
     min-width: 220px; 
     padding: 15px;
-    border: 1px solid #000000;
-    border-radius: 35px;
+    border: 3px solid blue;
+    border-radius: 20px;
+    background-color: white;
 
     color: black;
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
     font-size: 1em;
     text-decoration: none;
     text-align: center;
 
+}
+
+.nav > a:hover {
+    font-size: 0.8em;
+    color: blue;
 }
 
 /* Main */
@@ -69,9 +76,9 @@ main {
 
 .banner {
     width: 100%;
-    height: 650px;
+    height: 750px;
     display: none;
-    margin-bottom: 5%;
+    
 }
 
 .banner > img {
@@ -80,10 +87,10 @@ main {
 }
 
 .curiosidade-title {
-    width: 100%;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    line-height: 75px;
+    padding: 20px 20px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 18px;
+   
     text-align: center;
     color: #000000;  
 }
@@ -103,10 +110,11 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    gap: 30px;
     
-    background: #C4C4C4;
-    border-radius: 35px;
+    background: white;
+    border-radius: 20px;
+    border: 3px solid blue;
 }
 
 .card > img {
@@ -116,14 +124,15 @@ main {
 }
 
 .card > h2 {
+    width: 70%;
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
 
 .card > p {
-    padding: 0px 25px 0px 25px;
-    text-align: center;
+    padding: 0px 45px 0px 45px;
+    text-align: justify;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -134,10 +143,11 @@ main {
 }
 
 .video-title {
-    padding: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 20px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
     font-size: 18px;
-    text-align: left;
+
+    text-align: center;
     color: #000000;
 }
 
@@ -157,7 +167,7 @@ main {
 footer {
     width: 100%;
     background: #C4C4C4;
-    border: 3px solid black;
+    border: 3px solid blue;
 }
 
 .contatos {
@@ -172,10 +182,16 @@ footer {
 .contato-card > a > img {
     width: 150px;
     border-radius: 155px;
+    border: 5px solid blue;
+}
+
+.contato-card > a:hover {
+    opacity: 0.5;
 }
 
 .contato-card > h2 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Comic Sans MS, Comic Sans, cursive;
     text-align: center;
-    font-size: 24px;
+    font-size: 35px;
+    padding-top: 5px;
 }
