@@ -115,6 +115,7 @@ main {
     background: white;
     border-radius: 20px;
     border: 3px solid blue;
+    box-shadow: 5px 5px 5px black;
 }
 
 .card > img {
@@ -165,6 +166,10 @@ main {
 /* Footer */
 
 footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
     width: 100%;
     background: #C4C4C4;
     border: 3px solid blue;
@@ -194,4 +199,11 @@ footer {
     text-align: center;
     font-size: 35px;
     padding-top: 5px;
+}
+
+footer p {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    padding-bottom: 10px;
 }
