@@ -38,6 +38,12 @@
 
         height: 450px;
     }
+
+    .banner > p {
+        position: relative;
+        bottom: 420px;
+    }
+
     
     .curiosidades {
         display: flex;
