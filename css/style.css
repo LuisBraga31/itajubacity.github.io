@@ -207,3 +207,15 @@ footer p {
     font-family: Comic Sans MS, Comic Sans, cursive;
     padding-bottom: 10px;
 }
+
+@media (max-width: 349px) {
+
+    .card {
+        width: 100%;
+    }
+
+    .card > p {
+        font-size: 14px;
+    }
+
+}
